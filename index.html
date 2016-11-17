@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/util.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			div{
+				width: 100px;
+				height: 100px;
+				}
+			#div1{
+				background-color: #0081C2;
+			}
+			#div2{
+				background-color: #00BBEE;
+			}
+			
+			#div3{
+				background-color: #2984A4;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1" class="a bb ccc"></div>
+		<div id="div2"></div>
+		<div id="div3"></div>
+	</body>
+	<script type="text/javascript">
+			var dom = document.getElementById("div1");
+			console.log(TS.util.hasClass(dom,"a"));
+		</script>
+</html>
